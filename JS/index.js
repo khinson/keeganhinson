@@ -1,12 +1,3 @@
-  var c = ["#00B16A", "#4183D7", "#8E44AD", "#BDC3C7", "#F5AB35"];
- var i = 0;
- var myVar = setInterval(function () { myTimer() }, 1500);
- function myTimer() {
-    document.getElementsByTagName('body')[0].style.background = c[i];
-    i = i + 1;
-    if (i >= c.length) i = 0;
- }
-
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
